@@ -12,7 +12,7 @@ You'll need a web server to host the widget, which consists of some HTML, JavaSc
 
 # Installation
 
-Note: If you download the widget from GitHub, once you extract the archive you're going to get a folder named something crazy like "jtv-info-widget-a541ed5".  Please rename this folder so it is just plain old "`jtv-info-widget`".
+Note: If you download the widget from GitHub, once you extract the archive you're going to get a folder named something crazy like "`jtv-info-widget-a541ed5`".  Please rename this folder so it is just plain old "`jtv-info-widget`".
 
 To install the widget, first upload the entire "`jtv-info-widget`" folder to your web server via FTP, and make sure it is your public html area.  If you don't know where this is, consult your web hosting company, and ask where to place files to make them web accessible.  For example, when you connect to your website via FTP, you should see some sort of public html folder, which may be called "`public_html`", "`html`" or "`www`".  This is typically where you place files to make them load in a web browser.  Upload the "`jtv-info-widget`" so it goes *inside* your "`public_html`", "`html`" or "`www`" folder.
 
