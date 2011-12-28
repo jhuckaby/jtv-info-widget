@@ -84,7 +84,7 @@
 		if (!div.getAttribute('style')) {
 			var jtv_flash = el('jtv_flash');
 			if (!jtv_flash) jtv_flash = el('live_embed_player_flash');
-			if (jtv_flash) div.style.width = '' + jtv_flash.offsetWidth + 'px';
+			if (jtv_flash && jtv_flash.offsetWidth) div.style.width = '' + jtv_flash.offsetWidth + 'px';
 		}
 		
 		refresh();
