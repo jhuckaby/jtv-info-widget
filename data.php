@@ -64,6 +64,10 @@ if (!$used_fcache) {
 		// <strong id="channel_fans_count">16,583
 		$num_followers = intval( preg_replace('/\D+/', '', $matches[1]) );
 	}
+	else if (preg_match('/followers_count\D+([\d\,]+)/', $raw, $matches)) {
+		// <span class='stat' id='followers_count'>8,080</span>
+		$num_followers = intval( preg_replace('/\D+/', '', $matches[1]) );
+	}
 	
 	file_put_contents( $fcache_file, $num_followers );
 }
