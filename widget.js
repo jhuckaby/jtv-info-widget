@@ -52,7 +52,7 @@
 			html += '<div style="'+wrap_sty+'"><center><table width="95%" style="'+sty_reset+'"><tr style="'+sty_reset+'">';
 				html += '<td width="33%" align="left" style="'+sty_reset+' text-align:left;">';
 					html += '<div style="'+label_sty+'">Live Viewers:</div>';
-					html += '<div style="'+data_sty+'">' + commify(data.stream_count) + '</div>';
+					html += '<div style="'+data_sty+'">' + commify(data.channel_count || data.stream_count) + '</div>';
 				html += '</td>';
 				html += '<td width="34%" align="center" style="'+sty_reset+' text-align:center;">';
 					html += '<div style="'+label_sty+'">Followers:</div>';
