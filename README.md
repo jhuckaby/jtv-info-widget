@@ -44,3 +44,9 @@ One last thing.  The widget attempts to auto-size itself so it is exactly the sa
 	<div id="jtv_widget" channel="twit" style="width:500px;"></div>
 
 Have fun!
+
+Testing a screenshot:
+
+![Screenshot Test](https://pixlcore.com/software/cronicle/screenshots/edit-event.png)
+
+Hello
